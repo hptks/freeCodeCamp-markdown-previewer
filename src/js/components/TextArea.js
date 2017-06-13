@@ -12,7 +12,7 @@ export default class TextArea extends React.Component {
   render() {
     return (
       <div class="container">
-        <textarea onChange={this.getText.bind(this)} rows="10" cols="40" />
+        <textarea onChange={this.getText.bind(this)} rows="20" cols="80" />
         <Display />
       </div>
     )
