@@ -1,15 +1,20 @@
 import React from 'react'
 import marked from 'marked'
 
+import Display from './Display'
+
 export default class TextArea extends React.Component {
   getText(e) {
-    const text = e.target.value
-    document.getElementById('markdown').innerHTML = marked(text)
+    e.preventDefault()
+    document.getElementById('markedText').innerHTML = marked(e.target.value)
   }
 
   render() {
     return (
-      <textarea onChange={this.getText.bind(this)} rows="10" cols="40" />
+      <div class="container">
+        <textarea onChange={this.getText.bind(this)} rows="10" cols="40" />
+        <Display />
+      </div>
     )
   }
 }
