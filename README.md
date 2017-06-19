@@ -1,7 +1,7 @@
 # freeCodeCamp-markdown-previewer
 > A GitHub markdown previewer done with ReactJS and Node.js as part of freeCodeCamp.
 
-[![Build Status](https://travis-ci.org/hptks/freecodecamp-markdown-previewer.svg?branch=master)](https://travis-ci.org/hptks/freecodecamp-markdown-previewer)
+[![Build Status](https://travis-ci.org/hristo-tanev/freecodecamp-markdown-previewer.svg?branch=master)](https://travis-ci.org/hristo-tanev/freecodecamp-markdown-previewer)
 
 # Install
 To install all the relevant modules needed for the application to run, navigate to the project folder and run the following command:
